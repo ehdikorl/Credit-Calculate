@@ -8,13 +8,13 @@ public class Main {
         int year3 = 3;
 
         double Payment = service.calculate(price, year, percent);
-        System.out.println("Платеж по крету: " + Payment);
+        System.out.println("Платеж по кредиту: " + Payment);
 
         Payment = service.calculate(price, year2, percent);
-        System.out.println("Платеж по крету: " + Payment);
+        System.out.println("Платеж по кредиту: " + Payment);
 
         Payment = service.calculate(price, year3, percent);
-        System.out.println("Платеж по крету: " + Payment);
+        System.out.println("Платеж по кредиту: " + Payment);
 
     }
 }
